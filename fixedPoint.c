@@ -20,7 +20,7 @@ int main()
     x0 = 3;
     do{
         x1 = g(x0);
-        printf("Iteration %d: x_%d = %f\n", i, i, x1);
+        printf("Iteration %d: x_%d = %f\n", i, i, x1);  
         err = (x1 - x0)/x1;
         x0 = x1;
         i++;
