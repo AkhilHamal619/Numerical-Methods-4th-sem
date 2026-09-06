@@ -1,4 +1,6 @@
 //Bisection method using C language
+//Solves the equation x^2-10=0
+
 #include<stdio.h>
 #include<math.h>
 
@@ -14,6 +16,7 @@ int main()
     int i =1, maxIter=20;
     while(1)
     {
+        printf("Akhil Hamal\n");
         printf("Enter the value of a:");
         scanf("%f", &a);
         printf("Enter the value of b:");
@@ -41,9 +44,10 @@ int main()
         {
             a = m;
              i++;
-        }
+        }https://www.tiktok.com/@crul1rise?is_from_webapp=1&sender_device=pc
        
     }
     printf("The approximate root is:%f\n",m);
     return 0;
+
 }
